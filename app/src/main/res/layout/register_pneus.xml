@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imgTracks"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@drawable/tiretracks"></ImageView>
+
+    <TextView
+        android:id="@+id/title"
+        android:textColor="@color/white"
+        android:layout_below="@id/imgTracks"
+        android:layout_marginTop="10dp"
+        android:text="Cadastre o pneu:"
+        android:textSize="35dp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </TextView>
+
+
+    <ImageView
+
+        android:id="@+id/tireicon"
+        android:layout_width="160dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/pneuplus"></ImageView>
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/tireicon"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/borderregister"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Id"
+        android:textColorHint="@color/grey">
+    </EditText>
+    <EditText
+        android:id="@+id/categoria"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/id"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/borderregister"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Largura"
+        android:textColorHint="@color/grey">
+    </EditText>
+    <EditText
+        android:id="@+id/classe"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/categoria"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/borderregister"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Altura"
+        android:textColorHint="@color/grey">
+    </EditText>
+
+    <EditText
+        android:id="@+id/diametro"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/classe"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/borderregister"
+        android:gravity="center"
+        android:hint="Diametro do aro"
+        android:textColorHint="@color/grey"
+        android:textSize="25dp"></EditText>
+    <EditText
+        android:id="@+id/velocidade"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_below="@+id/diametro"
+        android:layout_marginHorizontal="20dp"
+        android:background="@drawable/borderregister"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+        android:hint="Indice velocidade"
+        android:textColorHint="@color/grey">
+    </EditText>
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_marginTop="80dp"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Registrar"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:background="@drawable/btncustom"
+        android:textSize="20dp">
+    </Button>
+
+    <ImageView
+        android:id="@+id/imgTracksbtn"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:src="@drawable/tiretracks"></ImageView>
+
+</RelativeLayout>
