@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "225160727553",
+    "project_id": "apptestefirebase-f43fb",
+    "storage_bucket": "apptestefirebase-f43fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225160727553:android:480ea059f2d4c7f6354400",
+        "android_client_info": {
+          "package_name": "com.br.Decriabh"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "225160727553-vfqdh62m90mq4pheg0uf12pv6jttsjub.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmbfLEkvJI-Ptaqlkhn759VcZs0XLZvT4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "225160727553-vfqdh62m90mq4pheg0uf12pv6jttsjub.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
