@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "225160727553",
-    "project_id": "apptestefirebase-f43fb",
-    "storage_bucket": "apptestefirebase-f43fb.appspot.com"
+    "project_number": "1013497691753",
+    "project_id": "teste-df356",
+    "storage_bucket": "teste-df356.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:225160727553:android:480ea059f2d4c7f6354400",
+        "mobilesdk_app_id": "1:1013497691753:android:7f4eed77beb6ba366c2cf8",
         "android_client_info": {
-          "package_name": "com.br.Decriabh"
+          "package_name": "com.rode_legal_pneus"
         }
       },
       "oauth_client": [
         {
-          "client_id": "225160727553-vfqdh62m90mq4pheg0uf12pv6jttsjub.apps.googleusercontent.com",
+          "client_id": "1013497691753-4mhafp4tr1k55hn0ht6nmc5ifbq100jm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAmbfLEkvJI-Ptaqlkhn759VcZs0XLZvT4"
+          "current_key": "AIzaSyATLiTLY-5FBt9Gw6_ZGJX9iN0kD4hjlGA"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "225160727553-vfqdh62m90mq4pheg0uf12pv6jttsjub.apps.googleusercontent.com",
+              "client_id": "1013497691753-4mhafp4tr1k55hn0ht6nmc5ifbq100jm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
