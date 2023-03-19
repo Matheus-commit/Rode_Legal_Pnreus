@@ -12,4 +12,8 @@
     <color name="greenEnd">#347538</color>
     <color name="white">#F3F3F3</color>
     <color name="transparent">#00FFFFFF</color>
+    <color name="laranja">#F68712</color>
+    <color name="vermelho">#8d1e14</color>
+    <color name="grey_dark">#231F20</color>
+    <color name="white_light">#FFE6E6E6</color>
 </resources>

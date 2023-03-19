@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.MainActivity">
+
+    <View
+        android:id="@+id/viewTop"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@color/black"/>
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/logo2" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/relativePassword"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btncustom"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Entrar"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/relativePassword"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/relativeEmail"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/labelPass"
+            android:layout_marginHorizontal="15dp"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_baseline_lock_24"
+            android:hint="*******"
+            android:maxLines="1"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/labelPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Senha" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/start"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/input_background"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/labelEmail"
+            android:layout_marginHorizontal="15dp"
+            android:background="@null"
+            android:drawableEnd="@drawable/ic_email"
+            android:hint="Rode@gmail.com.br"
+            android:maxLines="1" />
+
+        <TextView
+            android:id="@+id/labelEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="E-mail" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Seja bem vindo!"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textForgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnLogin"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Esqueci minha senha"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/textNewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textForgot"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Crie sua conta"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/viewBotton"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/textNewAccount"
+        android:src="@drawable/tiretracks"/>
+</RelativeLayout>

@@ -1,24 +1,32 @@
 package com.rode_legal_pneus.ui.activities
 
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.google.android.material.snackbar.Snackbar
 import com.rode_legal_pneus.R
-import com.rode_legal_pneus.databinding.RegisterScreenBinding
+import com.rode_legal_pneus.databinding.RegisterscreenBinding
 
 class RegisterActivity : AppCompatActivity() {
 
-    private lateinit var  binding: RegisterScreenBinding
+    private lateinit var  binding: RegisterscreenBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        binding = RegisterScreenBinding.inflate(layoutInflater)
+        binding = RegisterscreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.buttonregister.setOnClickListener {
+        binding.btnRegister.setOnClickListener {view ->
 
-            val email1 = binding.email.text.toString()
-            val senha = binding.pass.text.toString()
+            var email = binding.editEmail.text.toString()
+            var senha = binding.editPassword.text.toString()
 
+            if(email.isEmpty() || senha.isEmpty()){
+
+                var snackbar = Snackbar.make(view, "Preencha todos os campos", Snackbar.LENGTH_SHORT)
+                snackbar.setBackgroundTint(Color.RED)
+                snackbar.show()
+            }
         }
     }
 }

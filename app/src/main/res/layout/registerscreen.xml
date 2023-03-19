@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.activities.RegisterActivity">
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/relativePassword"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btncustom"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Criar conta"
+        android:textColor="@color/white" />
+
+
+    <RelativeLayout
+        android:id="@+id/relativePassword"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/relativeEmail"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editPassword"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/labelPass"
+            android:layout_marginHorizontal="15dp"
+            android:background="@null"
+            android:hint="*******"
+            android:inputType="textPassword" />
+
+        <TextView
+            android:id="@+id/labelPass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="senha" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeName"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/start"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/input_background"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/labelName"
+            android:layout_marginHorizontal="15dp"
+            android:background="@null"
+            android:hint="Maria Chiquinha"/>
+
+        <TextView
+            android:id="@+id/labelName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="Nome" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativeEmail"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_below="@+id/relativeName"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input_background"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/editEmail"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@id/labelEmail"
+            android:layout_marginHorizontal="15dp"
+            android:background="@null"
+            android:hint="rodeLegal@gmail.com.br" />
+
+        <TextView
+            android:id="@+id/labelEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:fontFamily="@font/roboto_bold"
+            android:text="E-mail" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Crie sua conta"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/roboto_bold"
+        android:text="Crie sua conta"
+        android:textColor="@color/black"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textPossuiConta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btnRegister"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:clickable="true"
+        android:text="Já tenho uma conta"
+        android:textSize="14sp"
+        android:fontFamily="@font/roboto_bold" />
+
+
+</RelativeLayout>
