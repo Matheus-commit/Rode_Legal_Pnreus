@@ -53,6 +53,12 @@ class LoginActivity : AppCompatActivity() {
             getRegisterScreen()
         }
 
+        binding.textForgot.setOnClickListener { view ->
+
+            getForgotScreen()
+
+        }
+
     }
 
     fun navegarTelaPrincipal (){
@@ -63,6 +69,11 @@ class LoginActivity : AppCompatActivity() {
 
     fun getRegisterScreen(){
         val intent = Intent(this, RegisterActivity::class.java)
+        startActivity(intent)
+    }
+
+    fun getForgotScreen(){
+        var intent = Intent(this, ForgotActivity::class.java)
         startActivity(intent)
     }
 
