@@ -151,9 +151,10 @@
     <ImageView
         android:id="@+id/viewBotton"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_below="@id/textPossuiConta"
+        android:layout_height="50dp"
         android:layout_marginTop="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
         android:src="@drawable/tiretracks" />
 
 </RelativeLayout>

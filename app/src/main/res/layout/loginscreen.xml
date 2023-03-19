@@ -10,12 +10,12 @@
         android:id="@+id/viewTop"
         android:layout_width="match_parent"
         android:layout_height="160dp"
-        android:background="@color/black"/>
+        android:background="@drawable/background_view"/>
 
     <ImageView
         android:id="@+id/logo"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
+        android:layout_height="160dp"
         android:src="@drawable/logo2" />
 
     <Button
@@ -132,8 +132,9 @@
     <ImageView
         android:id="@+id/viewBotton"
         android:layout_width="match_parent"
-        android:layout_height="100dp"
-        android:layout_marginTop="70dp"
-        android:layout_below="@id/textNewAccount"
-        android:src="@drawable/tiretracks"/>
+        android:layout_height="50dp"
+        android:layout_marginTop="86dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/tiretracks" />
 </RelativeLayout>

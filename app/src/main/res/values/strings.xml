@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Rode_Legal_Pneus</string>
     <string name="login"><u>login</u></string>
+    <string name="recuperar_senha">Recuperar \nSenha</string>
+    <string name="txt_forgot">Por favor, entre com seu e-mail\npara recuperar seu acesso</string>
 </resources>
