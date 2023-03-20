@@ -1,5 +1,6 @@
 package com.rode_legal_pneus.ui.activities
 
+import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -19,7 +20,6 @@ class ForgotActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ForgotScreenBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
 
         binding.btnForgot.setOnClickListener { view ->
 
@@ -46,12 +46,11 @@ class ForgotActivity : AppCompatActivity() {
             }
         }
 
+        binding.arrowBack.setOnClickListener{
+            var intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
 
     }
 }
-//if(email.isEmpty()){
-//
-//    var snackbar = Snackbar.make(view, "Preencha o campo de e-mail", Snackbar.LENGTH_SHORT)
-//    snackbar.setBackgroundTint(Color.RED)
-//    snackbar.show()
-//}else{

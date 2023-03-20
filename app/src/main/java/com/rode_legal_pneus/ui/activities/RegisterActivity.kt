@@ -68,7 +68,12 @@ class RegisterActivity : AppCompatActivity() {
                 }
             }
         }
+
+        binding.arrowBack.setOnClickListener{
+            var intent = Intent(this, LoginActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 
-    //fun
 }
