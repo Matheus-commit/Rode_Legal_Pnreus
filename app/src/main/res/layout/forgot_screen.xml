@@ -43,7 +43,8 @@
             android:layout_below="@id/labelEmail"
             android:layout_marginHorizontal="15dp"
             android:background="@null"
-            android:hint="E-mail" />
+            android:hint="E-mail"
+            android:maxLines="1" />
 
         <TextView
             android:id="@+id/labelEmail"
