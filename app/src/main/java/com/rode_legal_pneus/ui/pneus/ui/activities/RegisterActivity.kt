@@ -1,4 +1,4 @@
-package com.rode_legal_pneus.ui.activities
+package com.rode_legal_pneus.ui.pneus.ui.activities
 
 import android.content.Intent
 import android.graphics.Color
@@ -11,7 +11,6 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseAuthInvalidCredentialsException
 import com.google.firebase.auth.FirebaseAuthUserCollisionException
 import com.google.firebase.auth.FirebaseAuthWeakPasswordException
-import com.rode_legal_pneus.R
 import com.rode_legal_pneus.databinding.RegisterscreenBinding
 
 class RegisterActivity : AppCompatActivity() {
@@ -69,11 +68,22 @@ class RegisterActivity : AppCompatActivity() {
             }
         }
 
-        binding.arrowBack.setOnClickListener{
+        binding.textPossuiConta.setOnClickListener {
             var intent = Intent(this, LoginActivity::class.java)
             startActivity(intent)
             finish()
         }
+
+        binding.arrowBack.setOnClickListener{
+            backLogin()
+        }
+    }
+
+    fun backLogin(){
+
+        var intent = Intent(this, LoginActivity::class.java)
+        startActivity(intent)
+        finish()
     }
 
 }

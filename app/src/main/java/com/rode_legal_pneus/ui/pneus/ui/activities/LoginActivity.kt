@@ -1,13 +1,11 @@
-package com.rode_legal_pneus.ui.activities
+package com.rode_legal_pneus.ui.pneus.ui.activities
 
 import android.content.Intent
 import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.widget.TextView
 import com.google.android.material.snackbar.Snackbar
 import com.google.firebase.auth.FirebaseAuth
-import com.rode_legal_pneus.R
 import com.rode_legal_pneus.databinding.LoginscreenBinding
 
 class LoginActivity : AppCompatActivity() {

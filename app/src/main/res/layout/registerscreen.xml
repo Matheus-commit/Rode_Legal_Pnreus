@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.activities.RegisterActivity">
+    tools:context=".ui.pneus.ui.activities.RegisterActivity">
 
     <ImageButton
         android:id="@+id/arrow_back"
@@ -145,9 +145,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:clickable="true"
+        android:fontFamily="@font/roboto_bold"
         android:text="Já tenho uma conta"
-        android:textSize="14sp"
-        android:fontFamily="@font/roboto_bold" />
+        android:textSize="14sp" />
 
     <ImageView
         android:id="@+id/viewBotton"

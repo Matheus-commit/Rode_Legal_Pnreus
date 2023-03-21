@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageItem"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/marcaItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Marca item"
+            android:layout_toRightOf="@id/imageItem"
+            android:layout_marginLeft="80dp"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/largura"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Largura: "
+            android:layout_below="@id/marcaItem"
+            android:layout_toRightOf="@id/imageItem"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:fontFamily="@font/roboto_medium"/>
+
+        <TextView
+            android:id="@+id/peso"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Peso Suportado: "
+            android:fontFamily="@font/roboto_medium"
+            android:layout_below="@id/marcaItem"
+            android:layout_toRightOf="@id/imageItem"
+            android:textSize="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/larguraItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="teste"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/largura"
+            android:layout_below="@id/marcaItem"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/pesoItem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="teste"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/peso"
+            android:layout_below="@id/marcaItem"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp" />
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

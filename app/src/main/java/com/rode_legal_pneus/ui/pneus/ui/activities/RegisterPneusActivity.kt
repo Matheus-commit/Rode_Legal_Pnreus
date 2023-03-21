@@ -1,4 +1,4 @@
-package com.rode_legal_pneus.ui.activities
+package com.rode_legal_pneus.ui.pneus.ui.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

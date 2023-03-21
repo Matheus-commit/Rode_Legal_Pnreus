@@ -12,19 +12,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Rode_Legal_Pneus">
         <activity
-            android:name=".ui.activities.RegisterPneusActivity"
+            android:name=".ui.pneus.ui.activities.RegisterPneusActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.activities.MainActivity"
+            android:name=".ui.pneus.ui.activities.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.activities.ForgotActivity"
+            android:name=".ui.pneus.ui.activities.ForgotActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.activities.RegisterActivity"
+            android:name=".ui.pneus.ui.activities.RegisterActivity"
             android:exported="true" />
         <activity
-            android:name=".ui.activities.LoginActivity"
+            android:name=".ui.pneus.ui.activities.LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
