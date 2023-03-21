@@ -23,6 +23,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
+        getPneus()
+
         binding.btnLogout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             var intent = Intent(this, LoginActivity::class.java)

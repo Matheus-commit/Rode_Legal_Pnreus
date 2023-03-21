@@ -8,7 +8,7 @@ import java.net.URL
 
 class RetrofitInitializer {
 
-    val URL = "https://6418dc1875be53f451e85276.mockapi.io/api/v1/pneus"
+    val URL = "https://641a31c3f398d7d95d52933c.mockapi.io/api/v1/"
 
     val retrofit = Retrofit.Builder()
         .baseUrl(URL)
